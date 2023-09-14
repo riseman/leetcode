@@ -1,6 +1,7 @@
 package leetcode.easy;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -45,6 +46,7 @@ public class MergeTwoSortedListsTests {
     }
 
     @Data
+    @EqualsAndHashCode
     public static class ListNode {
         int val;
         ListNode next;
